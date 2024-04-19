@@ -5,8 +5,7 @@
 
             <div class="section-title">
                 <h3><span>Contáctanos</span></h3>
-                <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
-                    vitae autem.</p>
+                <p>¡Estamos deseando escucharte! Si tienes alguna pregunta, sugerencia o estás interesado en colaborar con nosotros, no dudes en contactarnos.</p>
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -18,11 +17,19 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="info-box  mb-4">
                         <i class="bx bx-envelope"></i>
                         <h3>Correo Electrónico</h3>
                         <p>gicdiac@unprg.edu.pe</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="info-box  mb-4">
+                        <i class="bx bxl-facebook"></i>
+                        <h3>Facebook</h3>
+                        <p><a href="https://www.facebook.com/GICDIAC/" target="_blank" class="facebook">GICDIAC</a></p>
                     </div>
                 </div>
 

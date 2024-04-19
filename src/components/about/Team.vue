@@ -5,7 +5,7 @@
 
         <div class="section-title">
           <h3>Equipo <span>GICDIAC</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+          <p>Conoce a nuestro equipo de expertos, líderes en Ciencia de Datos, Inteligencia Artificial y Ciberseguridad.</p>
         </div>
 
         <div class="row d-flex justify-content-center">

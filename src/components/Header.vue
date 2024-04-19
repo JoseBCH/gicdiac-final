@@ -19,7 +19,7 @@
                         </ul>
                     </li>
                     <li><router-link to="/about" class="router-link" exact-active-class="active">Acerca de nosotros</router-link></li>
-                    <li><router-link to="/contacts" class="router-link" exact-active-class="active">Contactanos</router-link></li>
+                    <li><router-link to="/contacts" class="router-link" exact-active-class="active">Contactos</router-link></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->
