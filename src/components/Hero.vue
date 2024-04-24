@@ -18,7 +18,7 @@
           <h2 class="text-dark">Grupo de Investigación en Ciencia de Datos, Inteligencia Aritificial y <br>
             Ciberseguridad</h2>
           <div class="d-flex">
-            <a href="#" class="btn-get-started scrollto">Empezar</a>
+            <a href="#team" class="btn-get-started scrollto">Empezar</a>
             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Ver vídeo</span></a>
           </div>
         </div>

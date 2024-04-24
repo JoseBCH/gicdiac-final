@@ -13,9 +13,9 @@
                     <li class="dropdown"><router-link class="router-link"><span>Líneas de Investigación</span> <i
                                 class="bi bi-chevron-down"></i></router-link>
                         <ul>
-                            <li><router-link to="/DS-articles" class="router-link">Ciencia de datos</router-link></li>
-                            <li><router-link to="/IA-articles" class="router-link">Inteligencia artificial</router-link></li>
-                            <li><router-link to="/CS-articles" class="router-link">Ciberseguridad</router-link></li>
+                            <li><router-link to="/DS-articles" class="router-link" exact-active-class="active">Ciencia de datos</router-link></li>
+                            <li><router-link to="/IA-articles" class="router-link" exact-active-class="active">Inteligencia artificial</router-link></li>
+                            <li><router-link to="/CS-articles" class="router-link" exact-active-class="active">Ciberseguridad</router-link></li>
                         </ul>
                     </li>
                     <li><router-link to="/about" class="router-link" exact-active-class="active">Acerca de nosotros</router-link></li>
