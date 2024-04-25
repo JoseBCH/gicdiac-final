@@ -23,7 +23,7 @@
           </div>
         </div>
         <div>
-          <img src="../assets/img/logos/logo-gicdiac.png" class="mb-4" style="width: 400px;" alt="">
+          <img src="../assets/img/logos/LOGO GICDIAC - atenuado40.png" class="mb-4" style="width: 450px;" alt="">
         </div>
       </div>
     </div>
