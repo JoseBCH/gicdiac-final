@@ -18,8 +18,7 @@
               <article class="d-flex flex-column article">
 
                 <h2 class="title">
-                  <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam
-                    quia</a>
+                  <a href="blog-details.html">Aportes del Machine Learning al cultivo de mango: una revisión de la literatura</a>
                 </h2>
 
                 <div class="meta-top">
@@ -33,8 +32,7 @@
 
                 <div class="content">
                   <p>
-                    Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et
-                    laboriosam eius aut nostrum quidem aliquid dicta.
+                    El proyecto de investigación presentado se centra en los aportes del Machine Learning al cultivo de mango, abordando desafíos como la detección temprana de frutas, manejo de plagas y enfermedades, evaluación de calidad y madurez de los frutos, y estimación del rendimiento.
                   </p>
                 </div>
               </article>
@@ -43,7 +41,7 @@
             <div class="col-lg-4 mt-0">
               <article class="d-flex flex-column article">
                 <h2 class="title">
-                  <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
+                  <a href="blog-details.html">Una revisión sistemática de modelos de Deep Learning en la detección de cáncer de mama</a>
                 </h2>
 
                 <div class="meta-top">
@@ -57,8 +55,7 @@
 
                 <div class="content">
                   <p>
-                    Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et. Quo
-                    libero rerum voluptatem pariatur nam.
+                    El proyecto de investigación presentado se enfoca en identificar los tipos de cáncer detectados, las características de las imágenes utilizadas, los algoritmos de Deep Learning aplicados, los países donde se realizan estas investigaciones y el rendimiento de los modelos.
                   </p>
                 </div>
               </article>
@@ -68,8 +65,7 @@
               <article class="d-flex flex-column article">
 
                 <h2 class="title">
-                  <a href="blog-details.html">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit
-                    sint.</a>
+                  <a href="blog-details.html"> Ciberseguridad en las pymes de países en desarrollo: Una revisión sistemática de la literatura </a>
                 </h2>
 
                 <div class="meta-top">
@@ -83,8 +79,7 @@
 
                 <div class="content">
                   <p>
-                    Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem labore omnis
-                    et. Eum temporibus fugiat voluptate enim tenetur sunt omnis.
+                    El proyecto de investigación presentado aborda la creciente preocupación por los ataques cibernéticos y los desafíos de ciberseguridad que enfrentan las pequeñas y medianas empresas (pymes) en países en desarrollo, especialmente durante la pandemia de COVID-19, identificando los factores críticos que influyen en la adopción de la ciberseguridad, los marcos de trabajo y estándares implementados, y el nivel de madurez en ciberseguridad de las pymes.
                   </p>
                 </div>
 
