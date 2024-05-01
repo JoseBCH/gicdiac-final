@@ -16,8 +16,12 @@
                 <hr class="mt-5" style="color: #256FAE;">
             </div>
 
-            <div class="row">
-                <div class="col-lg-2">
+            <div class="row mt-3">
+                <div class="col-lg-3">
+                    <h5>Temas de investigación</h5>
+                        <p><i class="bi bi-check-square-fill"></i> Tema 1</p>
+                        <p><i class="bi bi-check-square-fill"></i> Tema 2</p>
+                        <p><i class="bi bi-check-square-fill"></i> Tema 3</p>
                 </div>
 
                 <div class="col-lg-8 col-md-6">
@@ -46,15 +50,15 @@
                     </p>
                 </div>
 
-                <div class="col-lg-2 col-md-6 footer-links justify-content-center" data-v-4896eafd="">
+                <div class="col-lg-1 col-md-6 footer-links justify-content-center" data-v-4896eafd="">
                     <div class="social-links mt-3" data-v-4896eafd=""><a href="https://www.facebook.com/jvillegas80"
-                            class="facebook" data-v-4896eafd=""><i class="bi bi-facebook"></i></a>
+                            class="facebook" data-v-4896eafd=""><h1><i class="bi bi-facebook"></i></h1></a>
                     </div>
                     <div class="social-links mt-3" data-v-4896eafd=""><a href="https://www.linkedin.com/in/juan-villegas-cubas-525451224/"
-                            class="facebook" data-v-4896eafd=""><i class="bi bi-linkedin"></i></a>
+                            class="facebook" data-v-4896eafd=""><h1><i class="bi bi-linkedin"></i></h1></a>
                     </div>
                     <div class="social-links mt-3" data-v-4896eafd=""><a href="https://www.linkedin.com/in/juan-villegas-cubas-525451224/"
-                            class="facebook" data-v-4896eafd=""><i class="bi bi-file-earmark-person"></i></a>
+                            class="facebook" data-v-4896eafd=""><h1><i class="bi bi-file-earmark-person"></i></h1></a>
                     </div>
                 </div>
 
