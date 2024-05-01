@@ -27,17 +27,20 @@ const router = createRouter({
     {
       path: '/DS-articles',
       name: 'DS-articles',
-      component: () => import('../views/ArticlesView.vue')
+      component: () => import('../views/ArticlesView.vue'),
+      meta: { title: 'DS' }
     },
     {
       path: '/IA-articles',
       name: 'IA-articles',
-      component: () => import('../views/ArticlesView.vue')
+      component: () => import('../views/ArticlesView.vue'),
+      meta: { title: 'IA' }
     },
     {
       path: '/CS-articles',
       name: 'CS-articles',
-      component: () => import('../views/ArticlesView.vue')
+      component: () => import('../views/ArticlesView.vue'),
+      meta: { title: 'CS' }
     }
   ]
 })

@@ -1,221 +1,265 @@
 <template>
-    <!-- ======= Acticles Section ======= -->
-    <section id="blog" class="blog">
-      <div class="container" data-aos="fade-up">
+  <!-- ======= Acticles Section ======= -->
+  <section id="blog" class="blog">
+    <div class="container" data-aos="fade-up">
+      <div class="section-title mb-5">
+        <h3><span>{{ title }}</span></h3>
+        <p>{{ description }}</p>
+      </div>
+      <div class="row g-5">
 
-        <div class="row g-5">
+        <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5 posts-list">
+            <div class="section-title mt-1">
+              <h3 class="text-start"><span>Proyectos</span></h3>
+            </div>
+            <div class="col-lg-4 mt-0">
+              <article class="d-flex flex-column article">
 
-            <div class="row gy-5 posts-list">
+                <h2 class="title">
+                  <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam
+                    quia</a>
+                </h2>
 
-              <div class="col-lg-4">
-                <article class="d-flex flex-column">
+                <div class="meta-top">
+                  <ul>
+                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John
+                        Doe</a></li>
+                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time
+                          datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                  </ul>
+                </div>
 
-                  <div class="post-img">
-                    <img src="../../assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
-                  </div>
+                <div class="content">
+                  <p>
+                    Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et
+                    laboriosam eius aut nostrum quidem aliquid dicta.
+                  </p>
+                </div>
+              </article>
+            </div><!-- End post list item -->
 
-                  <h2 class="title">
-                    <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</a>
-                  </h2>
+            <div class="col-lg-4 mt-0">
+              <article class="d-flex flex-column article">
+                <h2 class="title">
+                  <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
+                </h2>
 
-                  <div class="meta-top">
-                    <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                    </ul>
-                  </div>
+                <div class="meta-top">
+                  <ul>
+                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John
+                        Doe</a></li>
+                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time
+                          datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                  </ul>
+                </div>
 
-                  <div class="content">
-                    <p>
-                      Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta.
-                    </p>
-                  </div>
+                <div class="content">
+                  <p>
+                    Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et. Quo
+                    libero rerum voluptatem pariatur nam.
+                  </p>
+                </div>
+              </article>
+            </div><!-- End post list item -->
 
-                  <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Descargar <i class="bi bi-arrow-down"></i></a>
-                  </div>
+            <div class="col-lg-4 mt-0">
+              <article class="d-flex flex-column article">
 
-                </article>
-              </div><!-- End post list item -->
+                <h2 class="title">
+                  <a href="blog-details.html">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit
+                    sint.</a>
+                </h2>
 
-              <div class="col-lg-4">
-                <article class="d-flex flex-column">
+                <div class="meta-top">
+                  <ul>
+                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John
+                        Doe</a></li>
+                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time
+                          datetime="2022-01-01">Jan 1, 2022</time></a></li>
+                  </ul>
+                </div>
 
-                  <div class="post-img">
-                    <img src="../../assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
-                  </div>
+                <div class="content">
+                  <p>
+                    Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem labore omnis
+                    et. Eum temporibus fugiat voluptate enim tenetur sunt omnis.
+                  </p>
+                </div>
 
-                  <h2 class="title">
-                    <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
-                  </h2>
+              </article>
+            </div><!-- End post list item -->
+          </div><!-- End blog posts list -->
 
-                  <div class="meta-top">
-                    <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                    </ul>
-                  </div>
-
-                  <div class="content">
-                    <p>
-                      Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et. Quo libero rerum voluptatem pariatur nam.
-                    </p>
-                  </div>
-
-                  <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Descargar <i class="bi bi-arrow-down"></i></a>
-                  </div>
-
-                </article>
-              </div><!-- End post list item -->
-
-              <div class="col-lg-4">
-                <article class="d-flex flex-column">
-
-                  <div class="post-img">
-                    <img src="../../assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
-                  </div>
-
-                  <h2 class="title">
-                    <a href="blog-details.html">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit sint.</a>
-                  </h2>
-
-                  <div class="meta-top">
-                    <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                    </ul>
-                  </div>
-
-                  <div class="content">
-                    <p>
-                      Aut iste neque ut illum qui perspiciatis similique recusandae non. Fugit autem dolorem labore omnis et. Eum temporibus fugiat voluptate enim tenetur sunt omnis.
-                    </p>
-                  </div>
-
-                  <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Descargar <i class="bi bi-arrow-down"></i></a>
-                  </div>
-
-                </article>
-              </div><!-- End post list item -->
-
-              <div class="col-lg-4">
-                <article class="d-flex flex-column">
-
-                  <div class="post-img">
-                    <img src="../../assets/img/blog/blog-4.jpg" alt="" class="img-fluid">
-                  </div>
-
-                  <h2 class="title">
-                    <a href="blog-details.html">Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius exercitationem.</a>
-                  </h2>
-
-                  <div class="meta-top">
-                    <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                    </ul>
-                  </div>
-
-                  <div class="content">
-                    <p>
-                      Aspernatur rerum perferendis et sint. Voluptates cupiditate voluptas atque quae. Rem veritatis rerum enim et autem. Saepe atque cum eligendi eaque iste omnis a qui.
-                    </p>
-                  </div>
-
-                  <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Descargar <i class="bi bi-arrow-down"></i></a>
-                  </div>
-
-                </article>
-              </div><!-- End post list item -->
-
-              <div class="col-lg-4">
-                <article class="d-flex flex-column">
-
-                  <div class="post-img">
-                    <img src="../../assets/img/blog/blog-5.jpg" alt="" class="img-fluid">
-                  </div>
-
-                  <h2 class="title">
-                    <a href="blog-details.html">Accusamus quaerat aliquam qui debitis facilis consequatur</a>
-                  </h2>
-
-                  <div class="meta-top">
-                    <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                    </ul>
-                  </div>
-
-                  <div class="content">
-                    <p>
-                      In itaque assumenda aliquam voluptatem qui temporibus iusto nisi quia. Autem vitae quas aperiam nesciunt mollitia tempora odio omnis. Ipsa odit sit ut amet necessitatibus. Quo ullam ut corrupti autem consequuntur totam dolorem.
-                    </p>
-                  </div>
-
-                  <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Descargar <i class="bi bi-arrow-down"></i></a>
-                  </div>
-
-                </article>
-              </div><!-- End post list item -->
-
-              <div class="col-lg-4">
-                <article class="d-flex flex-column">
-
-                  <div class="post-img">
-                    <img src="../../assets/img/blog/blog-6.jpg" alt="" class="img-fluid">
-                  </div>
-
-                  <h2 class="title">
-                    <a href="blog-details.html">Distinctio provident quibusdam numquam aperiam aut</a>
-                  </h2>
-
-                  <div class="meta-top">
-                    <ul>
-                      <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="blog-details.html">John Doe</a></li>
-                      <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="blog-details.html"><time datetime="2022-01-01">Jan 1, 2022</time></a></li>
-                    </ul>
-                  </div>
-
-                  <div class="content">
-                    <p>
-                      Expedita et temporibus eligendi enim molestiae est architecto praesentium dolores. Illo laboriosam officiis quis. Labore officia quia sit voluptatem nisi est dignissimos totam. Et voluptate et consectetur voluptatem id dolor magni impedit. Omnis dolores sit.
-                    </p>
-                  </div>
-
-                  <div class="read-more mt-auto align-self-end">
-                    <a href="blog-details.html">Descargar <i class="bi bi-arrow-down"></i></a>
-                  </div>
-
-                </article>
-              </div><!-- End post list item -->
-
-            </div><!-- End blog posts list -->
-
-            <div class="blog-pagination">
-              <ul class="justify-content-center">
-                <li><a href="#">1</a></li>
-                <li class="active"><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-              </ul>
-            </div><!-- End blog pagination -->
-
+          <!-- <div class="blog-pagination mb-3">
+            <ul class="justify-content-center">
+              <li><a href="#">1</a></li>
+              <li class="active"><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+            </ul>
           </div>
+          End blog pagination -->
 
         </div>
 
       </div>
-    </section><!-- End Acticles Section -->
+    </div>
+  </section><!-- End Acticles Section -->
+
+  <section id="blog" class="blog">
+    <div class="container mt-2" data-aos="fade-up">
+      <div class="row g-5">
+
+        <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="row gy-5 posts-list">
+            <div class="section-title mt-1">
+              <h3 class="text-start"><span>Artículos</span></h3>
+            </div>
+            <div class="col-lg-4 mt-0">
+              <article class="d-flex flex-column article">
+                <i class="bx bx-file"></i>
+                <h2 class="title">
+                  <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam
+                    quia</a>
+                </h2>
+              </article>
+            </div><!-- End post list item -->
+
+            <div class="col-lg-4 mt-0">
+              <article class="d-flex flex-column article">
+                <i class="bx bx-file"></i>
+                <h2 class="title">
+                  <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
+                </h2>
+              </article>
+            </div><!-- End post list item -->
+
+            <div class="col-lg-4 mt-0">
+              <article class="d-flex flex-column article">
+                <i class="bx bx-file"></i>
+                <h2 class="title">
+                  <a href="blog-details.html">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit
+                    sint.</a>
+                </h2>
+              </article>
+            </div><!-- End post list item -->
+
+            <div class="col-lg-4">
+              <article class="d-flex flex-column article">
+                <i class="bx bx-file"></i>
+                <h2 class="title">
+                  <a href="blog-details.html">Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius
+                    exercitationem.</a>
+                </h2>
+              </article>
+            </div><!-- End post list item -->
+
+            <div class="col-lg-4">
+              <article class="d-flex flex-column article">
+                <i class="bx bx-file"></i>
+                <h2 class="title">
+                  <a href="blog-details.html">Accusamus quaerat aliquam qui debitis facilis consequatur</a>
+                </h2>
+              </article>
+            </div><!-- End post list item -->
+
+            <div class="col-lg-4">
+              <article class="d-flex flex-column article">
+                <i class="bx bx-file"></i>
+                <h2 class="title">
+                  <a href="blog-details.html">Distinctio provident quibusdam numquam aperiam aut</a>
+                </h2>
+              </article>
+            </div><!-- End post list item -->
+
+          </div><!-- End blog posts list -->
+
+          <!-- <div class="blog-pagination mb-3">
+            <ul class="justify-content-center">
+              <li><a href="#">1</a></li>
+              <li class="active"><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+            </ul>
+          </div>
+          End blog pagination -->
+
+        </div>
+
+      </div>
+    </div>
+  </section><!-- End Acticles Section -->
 </template>
 <script setup>
+import { ref, watch } from 'vue'
+import { useRoute } from 'vue-router'
+const $route = useRoute()
+
+const param = ref($route.meta.title)
+const title = ref('')
+const description = ref('')
+
+
+
+async function updateDescription() {
+  if (param.value === "DS") {
+    title.value = "Ciencia de datos";
+    description.value = "La Ciencia de Datos fusiona estadísticas, matemáticas e informática para entender conjuntos de datos. Encuentra aquí nuestros artículos y proyectos en curso que muestran nuestro trabajo innovador en esta área.";
+  } else if (param.value === "IA") {
+    title.value = "Inteligencia Artificial";
+    description.value = "La Inteligencia Artificial abarca algoritmos y modelos que imitan el aprendizaje humano para tomar decisiones inteligentes. Descubre nuestros artículos y proyectos en curso que muestran nuestro trabajo innovador en esta área.";
+  } else {
+    title.value = "Ciberseguridad";
+    description.value = "La Ciberseguridad implica el desarrollo de estrategias y tecnologías para prevenir y mitigar ataques cibernéticos. Descubre aquí nuestros artículos, proyectos y otras contribuciones en esta importante área de protección digital.";
+  }
+}
+
+updateDescription();
+
 </script>
 <style scoped>
- a {
-  text-decoration: none;  
- }
+.badge {
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding: 8px 20px;
+  background: #e7f1fd;
+  color: #444444;
+  display: inline-flex;
+  border-radius: 50px;
+}
+
+.item {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
+  padding: 30px 0px 30px 0px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.article {
+  background: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .2);
+  padding: 20px;
+  /* min-height: 370px; */
+  position: relative;
+  display: block;
+  /* display: inline-block; */
+  min-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  /* Quita el borde predeterminado */
+  border-top: 1px solid #808080;
+  /* Establece un borde superior sólido de color grisáceo */
+  margin: 20px 0;
+  /* Añade espacio alrededor del hr para separarlo de otros elementos */
+}
 </style>

@@ -1836,9 +1836,7 @@ section {
 /*--------------------------------------------------------------
 # Blog Home Posts List
 --------------------------------------------------------------*/
-#blog {
-  background: #F6F9FE;
-}
+
 #blog .container {
   position: relative;
   margin-top: 60px;
