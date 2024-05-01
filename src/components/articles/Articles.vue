@@ -121,7 +121,7 @@
               <article class="d-flex flex-column article">
                 <i class="bx bx-file"></i>
                 <h2 class="title">
-                  <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam
+                  <a class="font" href="blog-details.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam
                     quia</a>
                 </h2>
               </article>
@@ -131,7 +131,7 @@
               <article class="d-flex flex-column article">
                 <i class="bx bx-file"></i>
                 <h2 class="title">
-                  <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
+                  <a class="font" href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
                 </h2>
               </article>
             </div><!-- End post list item -->
@@ -140,7 +140,7 @@
               <article class="d-flex flex-column article">
                 <i class="bx bx-file"></i>
                 <h2 class="title">
-                  <a href="blog-details.html">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit
+                  <a class="font" href="blog-details.html">Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero sit
                     sint.</a>
                 </h2>
               </article>
@@ -150,7 +150,7 @@
               <article class="d-flex flex-column article">
                 <i class="bx bx-file"></i>
                 <h2 class="title">
-                  <a href="blog-details.html">Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius
+                  <a class="font" href="blog-details.html">Non rem rerum nam cum quo minus. Dolor distinctio deleniti explicabo eius
                     exercitationem.</a>
                 </h2>
               </article>
@@ -160,7 +160,7 @@
               <article class="d-flex flex-column article">
                 <i class="bx bx-file"></i>
                 <h2 class="title">
-                  <a href="blog-details.html">Accusamus quaerat aliquam qui debitis facilis consequatur</a>
+                  <a class="font" href="blog-details.html">Accusamus quaerat aliquam qui debitis facilis consequatur</a>
                 </h2>
               </article>
             </div><!-- End post list item -->
@@ -169,7 +169,7 @@
               <article class="d-flex flex-column article">
                 <i class="bx bx-file"></i>
                 <h2 class="title">
-                  <a href="blog-details.html">Distinctio provident quibusdam numquam aperiam aut</a>
+                  <a class="font" href="blog-details.html">Distinctio provident quibusdam numquam aperiam aut</a>
                 </h2>
               </article>
             </div><!-- End post list item -->
@@ -233,6 +233,10 @@ updateDescription();
 .item {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
   padding: 30px 0px 30px 0px;
+}
+
+.font {
+  font-weight: 400;
 }
 
 a:hover {

@@ -41,7 +41,12 @@ const router = createRouter({
       name: 'CS-articles',
       component: () => import('../views/ArticlesView.vue'),
       meta: { title: 'CS' }
-    }
+    },
+    {
+      path: '/about/person',
+      name: 'about/person',
+      component: () => import('../views/PersonView.vue')
+    },
   ]
 })
 
