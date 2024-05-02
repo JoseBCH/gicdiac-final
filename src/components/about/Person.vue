@@ -2,7 +2,7 @@
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
         <div class="container" data-aos="fade-up" style="width: 1000px;">
-
+            <button type="button" class="btn btn-primary" @click="goBack()"><i class="bi bi-arrow-left"></i></button>
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-8">
                     <h1><span>{{ investigador.names }}</span></h1>
@@ -17,9 +17,9 @@
             <div class="row mt-3">
                 <div class="col-lg-3">
                     <h5>Temas de investigación</h5>
-                        <p><i class="bi bi-check-square-fill"></i> Tema 1</p>
-                        <p><i class="bi bi-check-square-fill"></i> Tema 2</p>
-                        <p><i class="bi bi-check-square-fill"></i> Tema 3</p>
+                    <p><i class="bi bi-check-square-fill"></i> Tema 1</p>
+                    <p><i class="bi bi-check-square-fill"></i> Tema 2</p>
+                    <p><i class="bi bi-check-square-fill"></i> Tema 3</p>
                 </div>
 
                 <div class="col-lg-8 col-md-6">
@@ -29,14 +29,21 @@
                 </div>
 
                 <div class="col-lg-1 col-md-6 footer-links justify-content-center" data-v-4896eafd="">
-                    <div class="social-links mt-3" data-v-4896eafd=""><a :href="investigador.facebook"
-                            class="facebook" data-v-4896eafd=""><h1><i class="bi bi-facebook"></i></h1></a>
+                    <div class="social-links mt-3" data-v-4896eafd=""><a :href="investigador.facebook" class="facebook"
+                            data-v-4896eafd="">
+                            <h1><i class="bi bi-facebook"></i></h1>
+                        </a>
                     </div>
-                    <div class="social-links mt-3" data-v-4896eafd=""><a :href="investigador.linkedin"
-                            class="facebook" data-v-4896eafd=""><h1><i class="bi bi-linkedin"></i></h1></a>
+                    <div class="social-links mt-3" data-v-4896eafd=""><a :href="investigador.linkedin" class="facebook"
+                            data-v-4896eafd="">
+                            <h1><i class="bi bi-linkedin"></i></h1>
+                        </a>
                     </div>
-                    <div class="social-links mt-3" data-v-4896eafd=""><a href="https://www.linkedin.com/in/juan-villegas-cubas-525451224/"
-                            class="facebook" data-v-4896eafd=""><h1><i class="bi bi-file-earmark-person"></i></h1></a>
+                    <div class="social-links mt-3" data-v-4896eafd=""><a
+                            href="https://www.linkedin.com/in/juan-villegas-cubas-525451224/" class="facebook"
+                            data-v-4896eafd="">
+                            <h1><i class="bi bi-file-earmark-person"></i></h1>
+                        </a>
                     </div>
                 </div>
 
@@ -52,26 +59,38 @@ import axios from 'axios';
 import { defineProps } from 'vue';
 
 const props = defineProps({
-  id: String
+    id: String
 });
 
 const inv_id = parseInt(props.id)
 const investigadores = ref([]);
 const investigador = ref({});
 const fetchData = async () => {
-  try {
-    const response = await axios.get('/src/assets/db/data.json');
-    investigadores.value = response.data.investigadores;
-    investigador.value = investigadores.value.find(inv => inv.inv_id === inv_id);
-  } catch (error) {
-    console.error('Error fetching data:', error);
-  }
+    try {
+        const response = await axios.get('/src/assets/db/data.json');
+        investigadores.value = response.data.investigadores;
+        investigador.value = investigadores.value.find(inv => inv.inv_id === inv_id);
+    } catch (error) {
+        console.error('Error fetching data:', error);
+    }
 };
 
+const goBack = () => {
+    // Acceder a $router aquí
+    if (window.history.length > 1) {
+                window.history.go(-1);
+            } else {
+                // Si no hay historial, redirigir a una ruta predeterminada
+                // Puedes cambiar '/' por la ruta que desees
+                window.location.href = '/';
+            }
+};
 
 onMounted(() => {
-  fetchData();
+    fetchData();
 });
+
+
 
 </script>
 
