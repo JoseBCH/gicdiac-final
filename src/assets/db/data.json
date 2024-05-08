@@ -2,13 +2,13 @@
     "investigadores": [
         {
           "inv_id": 1,
-          "names": "Luis Otake Oyama",
-          "description": "Investigador CONCYTEC RENACYT categoría II, con experiencia como Ingeniero de Sistemas y Docente Asociado en la Escuela de Ingeniería de Sistemas de la UNPRG. Especializado en el desarrollo de productos y servicios con enfoque en Inteligencia Artificial.",
-          "cv": "Ingeniero de Sistemas. Doctor en Administración por la UNPRG. Maestro en Dirección Estratégica en Tecnologías de la Información por la UCSUR. Diploma de Estudios Avanzados en Dirección de Empresas por la Universidad de Málaga (España). Especializaciones en Gestión de Proyectos basado en PMBOK, Gestión Pública, Auditoría de Sistemas, Seguridad de la Información, COBIT y CMMI. Academic Advocate de ISACA en la categoría de Platinum Member. \nActualmente se desempeña como Coordinador de la Maestría en Ingeniería de Sistemas y es Docente Asociado en la Escuela de Ingeniería de Sistemas de la UNPRG. Es Gerente General de AudiConsulTI S.A.C.Ha sido Consultor y Auditor de TI en Advisory Services de EY (Ernst & Young) y Auditor Interno en Corporación Coroz (Gandules). \nHa participado en proyectos de consultoría y auditoría de TI en Guatemala, Chile y Perú. Trabajó como Director de Desarrollo de Sistemas y como Director del Departamento Académico de Ingeniería en la Universidad Católica Santo Toribio de Mogrovejo (USAT). Fue docente en la Universidad San Martín de Porres (USMP), y en la USAT. Fue Presidente del Capítulo de Ingeniería Industrial y de Sistemas del Colegio de Ingenieros del Perú – Consejo Departamental de Lambayeque, durante el período 2013-2015.",
-          "especialidad": "Ciberseguridad",
-          "image": "/src/assets/img/team/team-1.png",
-          "linkedin": "https://www.linkedin.com/in/luis-otake/",
-          "facebook": "https://www.facebook.com/luis.otake"
+          "names": "Oscar Capuñay Uceda",
+          "description": "Coordinador de la Maestría en Ingeniería de Sistemas y Docente Asociado en la Escuela de Ingeniería de Sistemas de la UNPRG. Con una destacada trayectoria académica, se especializa en áreas clave de la ingeniería de sistemas y contribuye activamente al desarrollo educativo en la UNPRG.",
+          "cv": "No hay información por ahora",
+          "especialidad": "Ciencia de datos",
+          "image": "/src/assets/img/team/team-3.png",
+          "linkedin": "https://www.linkedin.com/in/ocapunay/",
+          "facebook": "https://www.facebook.com/ocapunay"
         },
         {
           "inv_id": 2,
@@ -22,13 +22,13 @@
         },
         {
           "inv_id": 3,
-          "names": "Oscar Capuñay Uceda",
-          "description": "Coordinador de la Maestría en Ingeniería de Sistemas y Docente Asociado en la Escuela de Ingeniería de Sistemas de la UNPRG. Con una destacada trayectoria académica, se especializa en áreas clave de la ingeniería de sistemas y contribuye activamente al desarrollo educativo en la UNPRG.",
-          "cv": "No hay información por ahora",
-          "especialidad": "Ciencia de datos",
-          "image": "/src/assets/img/team/team-3.png",
-          "linkedin": "https://www.linkedin.com/in/ocapunay/",
-          "facebook": "https://www.facebook.com/ocapunay"
+          "names": "Luis Otake Oyama",
+          "description": "Investigador CONCYTEC RENACYT categoría II, con experiencia como Ingeniero de Sistemas y Docente Asociado en la Escuela de Ingeniería de Sistemas de la UNPRG. Especializado en el desarrollo de productos y servicios con enfoque en Inteligencia Artificial.",
+          "cv": "Ingeniero de Sistemas. Doctor en Administración por la UNPRG. Maestro en Dirección Estratégica en Tecnologías de la Información por la UCSUR. Diploma de Estudios Avanzados en Dirección de Empresas por la Universidad de Málaga (España). Especializaciones en Gestión de Proyectos basado en PMBOK, Gestión Pública, Auditoría de Sistemas, Seguridad de la Información, COBIT y CMMI. Academic Advocate de ISACA en la categoría de Platinum Member. \nActualmente se desempeña como Coordinador de la Maestría en Ingeniería de Sistemas y es Docente Asociado en la Escuela de Ingeniería de Sistemas de la UNPRG. Es Gerente General de AudiConsulTI S.A.C.Ha sido Consultor y Auditor de TI en Advisory Services de EY (Ernst & Young) y Auditor Interno en Corporación Coroz (Gandules). \nHa participado en proyectos de consultoría y auditoría de TI en Guatemala, Chile y Perú. Trabajó como Director de Desarrollo de Sistemas y como Director del Departamento Académico de Ingeniería en la Universidad Católica Santo Toribio de Mogrovejo (USAT). Fue docente en la Universidad San Martín de Porres (USMP), y en la USAT. Fue Presidente del Capítulo de Ingeniería Industrial y de Sistemas del Colegio de Ingenieros del Perú – Consejo Departamental de Lambayeque, durante el período 2013-2015.",
+          "especialidad": "Ciberseguridad",
+          "image": "/src/assets/img/team/team-1.png",
+          "linkedin": "https://www.linkedin.com/in/luis-otake/",
+          "facebook": "https://www.facebook.com/luis.otake"
         }
       ]
 }
