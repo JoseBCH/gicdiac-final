@@ -18,9 +18,7 @@
       </div>
 
       <div class="row g-5 mt-5">
-
         <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
-
           <div class="row gy-5 posts-list">
             <div class="section-title mt-1 pb-0">
               <h3 class="text-start"><span><i class="bi bi-chevron-double-right"></i> Proyectos</span></h3>
@@ -28,17 +26,17 @@
             <div v-for="(proyecto, index) in proyectos" class="col-lg-4">
               <article class="d-flex flex-column article">
                 <h2 class="title">
-                  <a>{{ proyecto.titulo }}</a>
+                  <a>{{ proyecto.title }}</a>
                 </h2>
                 <div class="content">
                   <p>
-                    {{ proyecto.descripcion }}
+                    {{ proyecto.description }}
                   </p>
                 </div>
               </article>
             </div>
             <div v-if="proyectos.length === 0">
-              <p class="parrafo">No hay proyectos disponibles para esta categoría.</p>
+              <p class="parrafo">No existen proyectos disponibles actualmente.</p>
             </div>
           </div><!-- End blog posts list -->
 
@@ -60,42 +58,26 @@
   <section id="blog" class="blog">
     <div class="container mt-2" data-aos="fade-up">
       <div class="row g-5">
-
         <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
-
           <div class="row gy-5 posts-list">
             <div class="section-title mt-1 pb-0">
               <h3 class="text-start"><span> <i class="bi bi-chevron-double-right"></i>Publicaciones científicas</span></h3>
             </div>
-            <div class="col-lg-4">
+            <div v-for="(article, index) in articles" class="col-lg-4">
               <article class="d-flex flex-column article">
-                <h3><i class="bx bx-file"></i></h3>
                 <h2 class="title">
-                  <a class="font" href="blog-details.html">Dolorum optio tempore voluptas dignissimos cumque fuga qui
-                    quibusdam
-                    quia</a>
+                  <a>{{ article.title }}</a>
                 </h2>
+                <div class="content">
+                  <p>
+                    {{ article.description }}
+                  </p>
+                </div>
               </article>
-            </div><!-- End post list item -->
-
-            <div class="col-lg-4">
-              <article class="d-flex flex-column article">
-                <h3><i class="bx bx-file"></i></h3>
-                <h2 class="title">
-                  <a class="font" href="blog-details.html">Accusamus quaerat aliquam qui debitis facilis consequatur</a>
-                </h2>
-              </article>
-            </div><!-- End post list item -->
-
-            <div class="col-lg-4">
-              <article class="d-flex flex-column article">
-                <h3><i class="bx bx-file"></i></h3>
-                <h2 class="title">
-                  <a class="font" href="blog-details.html">Distinctio provident quibusdam numquam aperiam aut</a>
-                </h2>
-              </article>
-            </div><!-- End post list item -->
-
+            </div>
+            <div v-if="articles.length === 0">
+              <p class="parrafo">No existen publicaciones científicas disponibles actualmente.</p>
+            </div>
           </div><!-- End blog posts list -->
 
           <!-- <div class="blog-pagination mb-3">
@@ -116,38 +98,32 @@
 <script setup>
 import { ref } from 'vue'
 import { useRoute } from 'vue-router'
+import axios from 'axios';
 const $route = useRoute()
 
 const param = ref($route.meta.title)
 const title = ref('')
 const description = ref('')
 const proyectos = ref([])
-
-const proyectosIA = ref([
-  { titulo: 'Aportes del Machine Learning al cultivo de mango: una revisión de la literatura', descripcion: 'El proyecto de investigación presentado se centra en los aportes del Machine Learning al cultivo de mango, abordando desafíos como la detección temprana de frutas, manejo de plagas y enfermedades, evaluación de calidad y madurez de los frutos, y estimación del rendimiento.' },
-  { titulo: 'Una revisión sistemática de modelos de Deep Learning en la detección de cáncer de mama', descripcion: 'El proyecto de investigación presentado se enfoca en identificar los tipos de cáncer detectados, las características de las imágenes utilizadas, los algoritmos de Deep Learning aplicados, los países donde se realizan estas investigaciones y el rendimiento de los modelos.' },
-]);
-
-const proyectosDS = ref([
-]);
-
-const proyectosCS = ref([
-  { titulo: 'Ciberseguridad en las pymes de países en desarrollo: Una revisión sistemática de la literatura', descripcion: 'El proyecto de investigación presentado aborda la creciente preocupación por los ataques cibernéticos y los desafíos de ciberseguridad que enfrentan las pequeñas y medianas empresas (pymes) en países en desarrollo, especialmente durante la pandemia de COVID-19, identificando los factores críticos que influyen en la adopción de la ciberseguridad, los marcos de trabajo y estándares implementados, y el nivel de madurez en ciberseguridad de las pymes.' },
-]);
+const articles = ref([])
 
 async function updateDescription() {
+  const response = await axios.get('src/assets/db/data.json');
   if (param.value === "DS") {
     title.value = "Ciencia de datos";
     description.value = "La Ciencia de Datos fusiona estadísticas, matemáticas e informática para entender conjuntos de datos. Encuentra aquí nuestros artículos y proyectos en curso que muestran nuestro trabajo innovador en esta área.";
-    proyectos.value = proyectosDS.value;
+    proyectos.value = response.data.projects.filter(project => project.specialty === 'DS');
+    articles.value = response.data.articles.filter(article => article.specialty === 'DS');
   } else if (param.value === "IA") {
     title.value = "Inteligencia Artificial";
     description.value = "La Inteligencia Artificial abarca algoritmos y modelos que imitan el aprendizaje humano para tomar decisiones inteligentes. Descubre nuestros artículos y proyectos en curso que muestran nuestro trabajo innovador en esta área.";
-    proyectos.value = proyectosIA.value;
+    proyectos.value = response.data.projects.filter(project => project.specialty === 'IA');
+    articles.value = response.data.articles.filter(article => article.specialty === 'IA');
   } else {
     title.value = "Ciberseguridad";
     description.value = "La Ciberseguridad implica el desarrollo de estrategias y tecnologías para prevenir y mitigar ataques cibernéticos. Descubre aquí nuestros artículos, proyectos y otras contribuciones en esta importante área de protección digital.";
-    proyectos.value = proyectosCS.value;
+    proyectos.value = response.data.projects.filter(project => project.specialty === 'CS');
+    articles.value = response.data.articles.filter(article => article.specialty === 'CS');
   }
 }
 
