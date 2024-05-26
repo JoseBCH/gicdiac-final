@@ -65,7 +65,7 @@
 
           <div class="row gy-5 posts-list">
             <div class="section-title mt-1 pb-0">
-              <h3 class="text-start"><span> <i class="bi bi-chevron-double-right"></i>Publicaciones científicas</span></h3>
+              <h3 class="text-start"><span> <i class="bi bi-chevron-double-right"></i> Publicaciones científicas</span></h3>
             </div>
             <div class="col-lg-4">
               <article class="d-flex flex-column article">
