@@ -8,7 +8,7 @@
           "especialidad": "Ciencia de datos",
           "image": "/src/assets/img/team/team-3.png",
           "linkedin": "https://www.linkedin.com/in/ocapunay/",
-          "facebook": "https://www.facebook.com/ocapunay"
+          "CTI_Vitae": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=13554"
         },
         {
           "inv_id": 2,
@@ -18,7 +18,7 @@
           "especialidad": "Inteligencia Artificial",
           "image": "/src/assets/img/team/team-2.png",
           "linkedin": "https://www.linkedin.com/in/juan-villegas-cubas-525451224/",
-          "facebook": "https://www.facebook.com/jvillegas80"
+          "CTI_Vitae": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=69483"
         },
         {
           "inv_id": 3,
@@ -28,7 +28,7 @@
           "especialidad": "Ciberseguridad",
           "image": "/src/assets/img/team/team-1.png",
           "linkedin": "https://www.linkedin.com/in/luis-otake/",
-          "facebook": "https://www.facebook.com/luis.otake"
+          "CTI_Vitae": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=31965"
         }
       ]
 }

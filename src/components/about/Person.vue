@@ -29,18 +29,12 @@
                 </div>
 
                 <div class="col-lg-1 col-md-6 footer-links justify-content-center" data-v-4896eafd="">
-                    <div class="social-links mt-3" data-v-4896eafd=""><a :href="investigador.facebook" class="facebook"
-                            data-v-4896eafd="">
-                            <h1><i class="bi bi-facebook"></i></h1>
-                        </a>
-                    </div>
                     <div class="social-links mt-3" data-v-4896eafd=""><a :href="investigador.linkedin" class="facebook"
                             data-v-4896eafd="">
                             <h1><i class="bi bi-linkedin"></i></h1>
                         </a>
                     </div>
-                    <div class="social-links mt-3" data-v-4896eafd=""><a
-                            href="https://www.linkedin.com/in/juan-villegas-cubas-525451224/" class="facebook"
+                    <div class="social-links mt-3" data-v-4896eafd=""><a :href="investigador.CTI_Vitae" class="facebook"
                             data-v-4896eafd="">
                             <h1><i class="bi bi-file-earmark-person"></i></h1>
                         </a>

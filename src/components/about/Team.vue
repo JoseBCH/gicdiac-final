@@ -17,7 +17,7 @@
             <div class="member-img">
               <img :src="investigador.image" class="img-fluid" alt="">
               <div class="social">
-                <a :href="investigador.facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a :href="investigador.CTI_Vitae" target="_blank"><i class="bi bi-file-earmark-person"></i></a>
                 <a :href="investigador.linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
