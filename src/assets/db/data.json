@@ -44,24 +44,24 @@
 
     "students": [
       {
-        "est_id": 1,
+        "stu_id": 1,
         "names": "Hector David Valdiviezo Sandoval",
         "description": "Coordinador de la Maestría en Ingeniería de Sistemas y Docente Asociado en la Escuela de Ingeniería de Sistemas de la UNPRG. Con una destacada trayectoria académica, se especializa en áreas clave de la ingeniería de sistemas y contribuye activamente al desarrollo educativo en la UNPRG.",
         "specialty": "Ciencia de datos",
         "image": "/src/assets/img/team/team-3.png",
         "linkedin": "https://www.linkedin.com/in/ocapunay/",
         "CTI_Vitae": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=362084",
-        "state": "activo"
+        "state": "A"
       },
       {
-        "est_id": 2,
+        "stu_id": 2,
         "names": "Cristina Brunella Céspedes Malca",
         "description": "Coordinador de la Maestría en Ingeniería de Sistemas y Docente Asociado en la Escuela de Ingeniería de Sistemas de la UNPRG. Con una destacada trayectoria académica, se especializa en áreas clave de la ingeniería de sistemas y contribuye activamente al desarrollo educativo en la UNPRG.",
         "specialty": "Ciencia de datos",
         "image": "/src/assets/img/team/team-3.png",
         "linkedin": "https://www.linkedin.com/in/ocapunay/",
         "CTI_Vitae": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=363102",
-        "state": "activo"
+        "state": "A"
       }
     ]
 }
