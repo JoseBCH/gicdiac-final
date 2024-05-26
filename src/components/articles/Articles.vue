@@ -61,7 +61,7 @@
         <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
           <div class="row gy-5 posts-list">
             <div class="section-title mt-1 pb-0">
-              <h3 class="text-start"><span> <i class="bi bi-chevron-double-right"></i>Publicaciones científicas</span></h3>
+              <h3 class="text-start"><span> <i class="bi bi-chevron-double-right"></i> Publicaciones científicas</span></h3>
             </div>
             <div v-for="(article, index) in articles" class="col-lg-4">
               <article class="d-flex flex-column article">
