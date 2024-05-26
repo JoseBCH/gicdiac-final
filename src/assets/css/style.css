@@ -631,6 +631,16 @@ section {
   font-weight: 700;
 }
 
+.section-title h5 {
+  margin: 15px 0 15px 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.section-title h5 span {
+  color: #212529;
+}
+
 .section-title h3 span {
   color: #256fae;
 }

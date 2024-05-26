@@ -8,9 +8,11 @@
         <p>Conoce a nuestro equipo de expertos, líderes en Ciencia de Datos, Inteligencia Artificial y Ciberseguridad.
         </p>
       </div>
-
+      <!--DOCENTES-->
+      <div class="section-title mt-1 pb-0">
+        <h5 class="text-start"><span><i class="bi bi-chevron-double-right"></i>Docentes</span></h5>
+      </div>
       <div class="row d-flex justify-content-center">
-
         <div v-for="investigador in investigadores" :key="investigador.id"
           class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
           <div class="member">
@@ -31,6 +33,30 @@
         </div>
       </div>
 
+      <!--ESTUDIANTES-->
+      <div class="section-title mt-5 pb-0">
+        <h5 class="text-start"><span><i class="bi bi-chevron-double-right"></i>Estudiantes en formación</span></h5>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div v-for="investigador in investigadores" :key="investigador.id"
+          class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+          <div class="member">
+            <div class="member-img">
+              <img :src="investigador.image" class="img-fluid" alt="">
+              <div class="social">
+                <a :href="investigador.CTI_Vitae" target="_blank"><i class="bi bi-file-earmark-person"></i></a>
+                <a :href="investigador.linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info">
+              <router-link :to="{ name: 'investigador', params: { id: investigador.inv_id } }" class="router-link">
+                <h4 class="text-center">{{ investigador.names }}</h4>
+              </router-link>
+              <span class="text-center">{{ investigador.especialidad }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section><!-- End Team Section -->
 </template>
@@ -56,9 +82,10 @@ onMounted(() => {
 });
 </script>
 <style scoped>
-.router-link :hover{
+.router-link :hover {
   text-decoration: underline;
 }
+
 .router-link {
   text-decoration: none;
 }
