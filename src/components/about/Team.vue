@@ -52,7 +52,7 @@
               <router-link :to="{ name: 'investigador', params: { id: investigador.inv_id } }" class="router-link">
                 <h4 class="text-center">{{ investigador.names }}</h4>
               </router-link>
-              <span class="text-center">{{ investigador.especialidad }}</span>
+              <span class="text-center">{{ investigador.specialty }}</span>
             </div>
           </div>
         </div>

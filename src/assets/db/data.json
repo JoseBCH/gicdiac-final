@@ -42,12 +42,11 @@
         }
       ],
 
-    "estudiantes": [
+    "students": [
       {
         "est_id": 1,
         "names": "Hector David Valdiviezo Sandoval",
         "description": "Coordinador de la Maestría en Ingeniería de Sistemas y Docente Asociado en la Escuela de Ingeniería de Sistemas de la UNPRG. Con una destacada trayectoria académica, se especializa en áreas clave de la ingeniería de sistemas y contribuye activamente al desarrollo educativo en la UNPRG.",
-        "cv": "No hay información por ahora",
         "specialty": "Ciencia de datos",
         "image": "/src/assets/img/team/team-3.png",
         "linkedin": "https://www.linkedin.com/in/ocapunay/",
@@ -58,7 +57,6 @@
         "est_id": 2,
         "names": "Cristina Brunella Céspedes Malca",
         "description": "Coordinador de la Maestría en Ingeniería de Sistemas y Docente Asociado en la Escuela de Ingeniería de Sistemas de la UNPRG. Con una destacada trayectoria académica, se especializa en áreas clave de la ingeniería de sistemas y contribuye activamente al desarrollo educativo en la UNPRG.",
-        "cv": "No hay información por ahora",
         "specialty": "Ciencia de datos",
         "image": "/src/assets/img/team/team-3.png",
         "linkedin": "https://www.linkedin.com/in/ocapunay/",
