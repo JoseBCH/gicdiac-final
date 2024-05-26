@@ -29,6 +29,16 @@
           "image": "/src/assets/img/team/team-1.png",
           "linkedin": "https://www.linkedin.com/in/luis-otake/",
           "CTI_Vitae": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=31965"
+        },
+        {
+          "inv_id": 4,
+          "names": "Ernesto Karlo Celi Arévalo",
+          "description": "Ingeniero de Sistemas por la Universidad Nacional Pedro Ruiz Gallo. Maestro en Dirección Estratégica en Tecnologías de la Información por la Universidad Científica del Sur. Doctor en Administración por la Universidad Nacional Pedro Ruiz Gallo. Experiencia profesional en consultoría y auditoría de sistemas.",
+          "cv": "ngeniero de Computación y Sistemas, Maestro en Ciencias con mención en Informática y Sistemas, Doctor en Administración, con más de 25 años de experiencia profesional y docencia universitaria. Experiencia profesional desarrollada en entidades del sector educativo, municipal, hospitalario y financiero, en áreas y procesos de tecnología de información, gestión operativa/administrativa, gestión de riesgos de TI, seguridad de TI, auditoría informática; realizando trabajos de planeamiento, análisis y diseño, desarrollo, implantación, soporte y administración de sistemas de información, gestión de bases de datos, gestión de proyectos informáticos, capacitación y consultoría, elaboración de expedientes técnicos, auditorías informáticas y peritajes judiciales y extrajudiciales. Me desempeño en equipos de trabajo multidisciplinarios y en escenarios bajo presión. Experiencia docente universitaria desde 1994, laborando en diferentes universidades públicas y privadas, desarrollando cursos a nivel de pre y postgrado, en temas relacionados con: sistemas de información, planeamiento estratégico de TI/SI, ingeniería de software, ingeniería de la información, base de datos, proyectos de ingeniería de sistemas, auditoría de tecnologías y sistemas de información, uso estratégico de TIC. Trabajos profesionales e investigaciones sobre gestión de riesgos de TI usando ISO 27005, MageriIT, Octave; seguridad de la información usando ISO 27001, ISO 27002; modelamiento de procesos y servicios de TI basados en COBIT 5.0, ITIL v3, ISO 12207, ISO 15504, las TIC en el proceso enseñanza aprendizaje y gestión hospitalaria con sistemas RIS/PACs. Participación en diferentes proyectos como líder o coordinador de equipos de trabajo de: planeamiento, desarrollo y supervisión de obra y auditoria de proyectos de desarrollo e implantación de TSI. Expositor y ponente en diferentes eventos a nivel nacional e internacional. Publicación de de artículos científicos arbitrados",
+          "especialidad": "Ciberseguridad",
+          "image": "/src/assets/img/team/team-4.png",
+          "linkedin": "https://www.linkedin.com/in/ernesto-karlo-celi-ar%C3%A9valo-0b6a0277/?originalSubdomain=pe",
+          "CTI_Vitae": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=21834"
         }
       ],
 
