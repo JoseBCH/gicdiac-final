@@ -27,7 +27,7 @@
               <router-link :to="{ name: 'investigador', params: { id: investigador.inv_id } }" class="router-link">
                 <h4 class="text-center">{{ investigador.names }}</h4>
               </router-link>
-              <span class="text-center">{{ investigador.especialidad }}</span>
+              <span class="text-center">{{ investigador.specialty }}</span>
             </div>
           </div>
         </div>
@@ -38,7 +38,7 @@
         <h5 class="text-start"><span><i class="bi bi-chevron-double-right"></i>Estudiantes en formación</span></h5>
       </div>
       <div class="row d-flex justify-content-center">
-        <div v-for="investigador in investigadores" :key="investigador.id"
+        <div v-for="investigador in investigadores" :key="investigador.inv_id"
           class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
           <div class="member">
             <div class="member-img">
