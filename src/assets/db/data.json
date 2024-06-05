@@ -67,21 +67,24 @@
         "title": "Aportes del Machine Learning al cultivo de mango: una revisión de la literatura",
         "specialty": "IA",
         "description": "El proyecto de investigación presentado se centra en los aportes del Machine Learning al cultivo de mango, abordando desafíos como la detección temprana de frutas, manejo de plagas y enfermedades, evaluación de calidad y madurez de los frutos, y estimación del rendimiento.",
-        "investigador": 2
+        "investigador": 2,
+        "student": null
       },
       {
         "pro_id": 2,
         "title": "Una revisión sistemática de modelos de Deep Learning en la detección de cáncer de mama",
         "specialty": "IA",
         "description": "El proyecto de investigación presentado se enfoca en identificar los tipos de cáncer detectados, las características de las imágenes utilizadas, los algoritmos de Deep Learning aplicados, los países donde se realizan estas investigaciones y el rendimiento de los modelos.",
-        "investigador": 2
+        "investigador": 2,
+        "student": null
       },
       {
         "pro_id": 3,
         "title": "Ciberseguridad en las pymes de países en desarrollo: Una revisión sistemática de la literatura",
         "specialty": "CS",
         "description": "El proyecto de investigación presentado aborda la creciente preocupación por los ataques cibernéticos y los desafíos de ciberseguridad que enfrentan las pequeñas y medianas empresas (pymes) en países en desarrollo, especialmente durante la pandemia de COVID-19, identificando los factores críticos que influyen en la adopción de la ciberseguridad, los marcos de trabajo y estándares implementados, y el nivel de madurez en ciberseguridad de las pymes.",
-        "investigador": 3
+        "investigador": 3,
+        "student": null
       }
     ],
 

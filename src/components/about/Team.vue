@@ -24,7 +24,7 @@
               </div>
             </div>
             <div class="member-info">
-              <router-link :to="{ name: 'investigador', params: { id: investigador.inv_id } }" class="router-link">
+              <router-link :to="{ name: 'investigador', params: { id: investigador.inv_id}}" class="router-link">
                 <h4 class="text-center">{{ investigador.names }}</h4>
               </router-link>
               <span class="text-center">{{ investigador.specialty }}</span>
@@ -49,7 +49,7 @@
               </div>
             </div>
             <div class="member-info">
-              <router-link :to="{ name: 'investigador', params: { id: student.stu_id } }" class="router-link">
+              <router-link :to="{ name: 'student', params: { id: student.stu_id} }" class="router-link">
                 <h4 class="text-center">{{ student.names }}</h4>
               </router-link>
               <span class="text-center">{{ student.specialty }}</span>

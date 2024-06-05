@@ -5,7 +5,8 @@
 
             <div class="section-title">
                 <h3><span>Contáctanos</span></h3>
-                <p>¡Estamos deseando escucharte! Si tienes alguna pregunta, sugerencia o estás interesado en colaborar con nosotros, no dudes en contactarnos.</p>
+                <p>¡Estamos deseando escucharte! Si tienes alguna pregunta, sugerencia o estás interesado en colaborar
+                    con nosotros, no dudes en contactarnos.</p>
             </div>
 
             <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -44,7 +45,15 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <form @submit.prevent="handleSubmit" class="php-email-form">
+                        <div v-if="sentMessage" class="alert alert-success alert-dismissible fade show" role="alert">
+                            <strong>{{ sentMessage }}</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                        <div v-if="errorMessage" class="alert alert-success alert-dismissible fade show" role="alert">
+                            <strong>{{ errorMessage }}</strong>
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
                         <div class="row">
                             <div class="col form-group">
                                 <input type="text" name="name" class="form-control" id="name" placeholder="Nombre"
@@ -63,19 +72,47 @@
                             <textarea class="form-control" name="message" rows="5" placeholder="Mensaje"
                                 required></textarea>
                         </div>
-                        <div class="my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Su mensaje ha sido enviado correctamente. Gracias!</div>
-                        </div>
                         <div class="text-center"><button type="submit">Enviar</button></div>
                     </form>
                 </div>
-
             </div>
-
         </div>
     </section><!-- End Contact Section -->
 </template>
 <script setup>
+import { ref } from 'vue';
+import axios from 'axios';
+
+// Definir las variables reactivas
+const loading = ref(false);
+const errorMessage = ref('');
+const sentMessage = ref('');
+
+const handleSubmit = async (event) => {
+    loading.value = true;
+    errorMessage.value = '';
+    sentMessage.value = '';
+
+    const formData = new FormData(event.target);
+
+    try {
+        const response = await axios.post('https://formspree.io/f/mrgnwjzv', formData, {
+            headers: {
+                'Accept': 'application/json'
+            }
+        });
+
+        if (response.status === 200) {
+            sentMessage.value = 'Su mensaje ha sido enviado correctamente. Gracias!';
+            // Resetear el formulario
+            event.target.reset();
+        } else {
+            errorMessage.value = 'Error al enviar el mensaje. Por favor, inténtelo de nuevo.';
+        }
+    } catch (error) {
+        errorMessage.value = 'Error al conectar con el servicio. Por favor, inténtelo de nuevo.';
+    } finally {
+        loading.value = false;
+    }
+};
 </script>

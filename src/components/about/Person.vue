@@ -5,21 +5,21 @@
             <button type="button" class="btn btn-primary" @click="goBack()"><i class="bi bi-arrow-left"></i></button>
             <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-8">
-                    <h1><span>{{ investigador.names }}</span></h1>
-                    <p class="parrafo">{{ investigador.description }}</p>
+                    <h1><span>{{ investigador.names || student.names }}</span></h1>
+                    <p class="parrafo">{{ investigador.description || student.description}}</p>
                     <div class="row">
-                        <div class="col-1"><a :href="investigador.linkedin" class="facebook" data-v-4896eafd="">
+                        <div class="col-1"><a :href="investigador.linkedin || student.linkedin" class="facebook" data-v-4896eafd="">
                                 <h1><i class="bi bi-linkedin"></i></h1>
                             </a>
                         </div>
-                        <div class="col-1"><a :href="investigador.CTI_Vitae" class="facebook" data-v-4896eafd="">
+                        <div class="col-1"><a :href="investigador.CTI_Vitae || student.CTI_Vitae" class="facebook" data-v-4896eafd="">
                                 <h1><i class="bi bi-file-earmark-person"></i></h1>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-4">
-                    <img :src="investigador.image" class="img-fluid rounded-circle" alt="">
+                    <img :src="investigador.image || student.image" class="img-fluid rounded-circle" alt="">
                 </div>
                 <hr class="mt-5" style="color: #256FAE;">
             </div>
@@ -72,21 +72,35 @@
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
 import { defineProps } from 'vue';
+import { useRoute } from 'vue-router'
 
 const props = defineProps({
-    id: String
+    id: String,
 });
 
-const inv_id = parseInt(props.id)
+const inv_id = parseInt(props.id);
+const rol = ref();
+const route = useRoute()
 const investigadores = ref([]);
+const students = ref([]);
 const investigador = ref({});
+const student = ref({});
 const proyectos = ref([]);
 const fetchData = async () => {
     try {
         const response = await axios.get('/src/assets/db/data.json');
-        investigadores.value = response.data.investigadores;
-        investigador.value = investigadores.value.find(inv => inv.inv_id === inv_id);
-        proyectos.value = response.data.projects.filter(project => project.investigador === inv_id);
+        rol.value = route.name;
+        console.log(rol);
+        if(rol.value === 'investigador'){
+            investigadores.value = response.data.investigadores;
+            investigador.value = investigadores.value.find(inv => inv.inv_id === inv_id);
+            proyectos.value = response.data.projects.filter(project => project.investigador === inv_id);
+        }else{
+            students.value = response.data.students;
+            student.value = students.value.find(std => std.stu_id === inv_id);
+            proyectos.value = response.data.projects.filter(project => project.student === inv_id);
+        }
+        
     } catch (error) {
         console.error('Error fetching data:', error);
     }
