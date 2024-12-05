@@ -93,10 +93,17 @@ const handleSubmit = async (event) => {
     errorMessage.value = '';
     sentMessage.value = '';
 
+    /* 
+        Crear cuenta en Formspree https://formspree.io/ 
+        y asignarlo a servicioFormspree.value 
+        Ejemplo: https://formspree.io/f/{form_id}
+    */
+    servicioFormspree.value = '';
+
     const formData = new FormData(event.target);
 
     try {
-        const response = await axios.post('https://formspree.io/f/mrgnwjzv', formData, {
+        const response = await axios.post(servicioFormspree.value, formData, {
             headers: {
                 'Accept': 'application/json'
             }

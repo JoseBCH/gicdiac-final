@@ -1,25 +1,24 @@
 {
-    "leaders": [
+    "investigadores": [
         {
-          "ldr_id": 1,
+          "inv_id": 1,
           "names": "Juan Villegas Cubas",
           "description": "Investigador CONCYTEC RENACYT nivel IV, con formación como Ingeniero de Sistemas y desempeño como Docente Asociado en la Escuela de Ingeniería de Sistemas de la UNPRG.",
           "specialty": "Inteligencia Artificial",
           "image": "/src/assets/img/team/team-2.png",
           "linkedin": "https://www.linkedin.com/in/juan-villegas-cubas-525451224/",
-          "CTI_Vitae": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=69483"
-        }
-      ],
-
-    "investigadores": [
+          "CTI_Vitae": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=69483",
+          "role": "leader"
+        },
         {
-          "inv_id": 1,
+          "inv_id": 2,
           "names": "Oscar Capuñay Uceda",
           "description": "Coordinador de la Maestría en Ingeniería de Sistemas y Docente Asociado en la Escuela de Ingeniería de Sistemas de la UNPRG. Con una destacada trayectoria académica, se especializa en áreas clave de la ingeniería de sistemas y contribuye activamente al desarrollo educativo en la UNPRG.",
           "specialty": "",
           "image": "/src/assets/img/team/team-3.png",
           "linkedin": "https://www.linkedin.com/in/ocapunay/",
-          "CTI_Vitae": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=13554"
+          "CTI_Vitae": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=13554",
+          "role": "docente"
         },
         {
           "inv_id": 3,
@@ -28,7 +27,8 @@
           "specialty": "",
           "image": "/src/assets/img/team/team-1.png",
           "linkedin": "https://www.linkedin.com/in/luis-otake/",
-          "CTI_Vitae": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=31965"
+          "CTI_Vitae": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=31965",
+          "role": "docente"   
         },
         {
           "inv_id": 4,
@@ -37,7 +37,8 @@
           "specialty": "",
           "image": "/src/assets/img/team/team-4.png",
           "linkedin": "https://www.linkedin.com/in/ernesto-karlo-celi-ar%C3%A9valo-0b6a0277/?originalSubdomain=pe",
-          "CTI_Vitae": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=21834"
+          "CTI_Vitae": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=21834",
+          "role": "docente"
         }
       ],
 
@@ -47,7 +48,7 @@
         "names": "Hector David Valdiviezo Sandoval",
         "description": "Coordinador de la Maestría en Ingeniería de Sistemas y Docente Asociado en la Escuela de Ingeniería de Sistemas de la UNPRG. Con una destacada trayectoria académica, se especializa en áreas clave de la ingeniería de sistemas y contribuye activamente al desarrollo educativo en la UNPRG.",
         "specialty": "",
-        "image": "/src/assets/img/team/team-5.png",
+        "image": "/src/assets/img/team/user.jpg",
         "linkedin": "https://www.linkedin.com/",
         "CTI_Vitae": "https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=362084",
         "state": "A"
@@ -70,7 +71,7 @@
         "title": "Aportes del Machine Learning al cultivo de mango: una revisión de la literatura",
         "specialty": "IA",
         "description": "El proyecto de investigación presentado se centra en los aportes del Machine Learning al cultivo de mango, abordando desafíos como la detección temprana de frutas, manejo de plagas y enfermedades, evaluación de calidad y madurez de los frutos, y estimación del rendimiento.",
-        "investigador": 2,
+        "investigador": 1,
         "student": null
       },
       {
@@ -78,7 +79,7 @@
         "title": "Una revisión sistemática de modelos de Deep Learning en la detección de cáncer de mama",
         "specialty": "IA",
         "description": "El proyecto de investigación presentado se enfoca en identificar los tipos de cáncer detectados, las características de las imágenes utilizadas, los algoritmos de Deep Learning aplicados, los países donde se realizan estas investigaciones y el rendimiento de los modelos.",
-        "investigador": 2,
+        "investigador": 1,
         "student": null
       },
       {
